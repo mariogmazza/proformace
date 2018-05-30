@@ -25,8 +25,10 @@
   <header role="banner" class="probootstrap-header">
     <div class="container-fluid">
       <a href="index.html" class="probootstrap-logo">
-        <img class="pro-logo" style="width: 20vh;height: 20vh;" src="./img/logo.png" alt="proformance logo">
-        <!-- <span>.</span> -->
+        <figure>
+        <img class="pro-logo" style="width: 10vh;height: 10vh;" src="./img/logo.png" alt="proformance logo">
+          <figcaption><h6> Proformance Unlimited</h6></figcaption>
+        </figure>
       </a>
 
       <a href="#" class="probootstrap-burger-menu visible-xs">
@@ -160,13 +162,19 @@
               us from the rest. Check out our reviews and take a look at some of our YouTube videos. You will spend hours
               watching them. All of our crate engines are hand assembled one at a time using only the finest parts available.
             </p>
-            <p style="color: white">Every one of our complete turn-key crate engines we build are dyno tested to ensure durability and power output.
-              With these standards we can assure you that you will receive a 100% perfect engine that will stand up to the
-              test of time. People choose to have a crate engine built by us over building their own since we can customize
-              the engine to your desired spec’s and it’s assembled by our highly experienced staff. So the day’s of back
-              and forth trips to the machine shops, trial and errors and expensive mistakes are a thing of the past.</p>
-            <p>
-              <a href="about.html" class="btn btn-primary" style="background-color: rgb(214, 13, 13);border: none">Read more about PF </a>
+
+
+            <div id="demo" class="collapse ">
+                <p style="color: white">Every one of our complete turn-key crate engines we build are dyno tested to ensure durability and power output.
+                    With these standards we can assure you that you will receive a 100% perfect engine that will stand up to the
+                    test of time. People choose to have a crate engine built by us over building their own since we can customize
+                    the engine to your desired spec’s and it’s assembled by our highly experienced staff. So the day’s of back
+                    and forth trips to the machine shops, trial and errors and expensive mistakes are a thing of the past.</p>
+                  <p>
+              </div>
+              <button type="button"  style="background-color: rgb(214, 13, 13);border: none" class="btn btn-info" data-toggle="collapse" data-target="#demo">Read more about PF </button>
+
+              <!-- <a href="about.html" class="btn btn-primary" style="background-color: rgb(214, 13, 13);border: none">Read more about PF </a> -->
             </p>
           </div>
         </div>
@@ -226,13 +234,20 @@
             <p style="color: white">&ldquo; I would like to take this opportunity to thank you for your interest in Proformance Crate Engines and
               introduce you to our company. As you can see from our photos and videos each engine is built to precision with
               much pride and care. We dyno test literary 100’s of engine combinations each year and with our skills and knowledge
-              you will know you made the right choice. We personally custom design the proper power plant to match you to
+              you will know you made the right choice.
+              </p>
+
+              <div id="demo2" class="collapse ">
+                <p style="color: white">
+                  We personally custom design the proper power plant to match you to
               your vehicle and its needs. When you purchase an engine from Proformance Unlimited you become part of a growing
               family and you can be assured you made the right choice. You have my personal guarantee that I will build you
-              a product we both can be proud of. Thank you,
+              a product we both can be proud of. Thank you, &rdquo; </p>
               <br/>
-              <span style="color:rgb(214, 13, 13)"> Doug Mascaritola - President </span>&rdquo;
-            </p>
+              <span style="color:rgb(214, 13, 13)"> Doug Mascaritola - President </span>
+                </div>
+              <button type="button"  style="background-color: rgb(214, 13, 13)"  class="btn btn-info" data-toggle="collapse" data-target="#demo2">Read more</button>
+
           </div>
         </div>
       </div>
@@ -267,7 +282,7 @@
                     <img src="img/chevy.png" alt="chevy" class="img-responsive img-rounded">
                   </a>
                   <h3>Chevy</h3>
-                  <p>HP: 300, Disp: 8-10, Torq: 290 lb.</p>
+                  <p>HP:<span style="color: rgb(214, 13, 13)">300</span>,Disp: <span style="color: rgb(214, 13, 13)">8-10</span> , Torq: <span style="color: rgb(214, 13, 13)">290 lb.</span></p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit ipsum est, sit amet.</p>
                 </div>
               </div>
@@ -277,7 +292,7 @@
                     <img src="img/ford.png" alt="Ford" class="img-responsive img-rounded">
                   </a>
                   <h3>Ford</h3>
-                  <p>HP: 300, Disp: 8-10, Torq: 290 lb.</p>
+                  <p>HP:<span style="color: rgb(214, 13, 13)">300</span>,Disp: <span style="color: rgb(214, 13, 13)">8-10</span> , Torq: <span style="color: rgb(214, 13, 13)">290 lb.</span></p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit ipsum est, sit amet.</p>
                 </div>
               </div>
@@ -287,7 +302,7 @@
                     <img src="img/chrysler.png" alt="chrysler" class="img-responsive img-rounded">
                   </a>
                   <h3>Chrysler</h3>
-                  <p>HP: 300, Disp: 8-10, Torq: 290 lb.</p>
+                  <p>HP:<span style="color: rgb(214, 13, 13)">300</span>,Disp: <span style="color: rgb(214, 13, 13)">8-10</span> , Torq: <span style="color: rgb(214, 13, 13)">290 lb.</span></p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit ipsum est, sit amet.</p>
                 </div>
               </div>
@@ -297,7 +312,7 @@
                     <img src="img/oldsmobile.png" alt="oldsmobile" class="img-responsive img-rounded">
                   </a>
                   <h3>Oldsmobile</h3>
-                  <p>HP: 300, Disp: 8-10, Torq: 290 lb.</p>
+                  <p>HP:<span style="color: rgb(214, 13, 13)">300</span>,Disp: <span style="color: rgb(214, 13, 13)">8-10</span> , Torq: <span style="color: rgb(214, 13, 13)">290 lb.</span></p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit ipsum est, sit amet.</p>
                 </div>
               </div>
@@ -307,7 +322,7 @@
                     <img src="img/cobra.png" alt="cobra" class="img-responsive img-rounded">
                   </a>
                   <h3>Cobra</h3>
-                  <p>HP: 300, Disp: 8-10, Torq: 290 lb.</p>
+                  <p>HP:<span style="color: rgb(214, 13, 13)">300</span>,Disp: <span style="color: rgb(214, 13, 13)">8-10</span> , Torq: <span style="color: rgb(214, 13, 13)">290 lb.</span></p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit ipsum est, sit amet.</p>
                 </div>
               </div>
@@ -317,7 +332,7 @@
                     <img src="img/pontiac.png" alt="pontiac" class="img-responsive img-rounded">
                   </a>
                   <h3>Pontiac</h3>
-                  <p>HP: 300, Disp: 8-10, Torq: 290 lb.</p>
+                  <p>HP:<span style="color: rgb(214, 13, 13)">300</span>,Disp: <span style="color: rgb(214, 13, 13)">8-10</span> , Torq: <span style="color: rgb(214, 13, 13)">290 lb.</span></p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit ipsum est, sit amet.</p>
                 </div>
               </div>
